@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-VERSION = "1.0"
+VERSION = "0.2"
 
 Gem::Specification.new do |spec|
   spec.name          = "motion-ios-devices"
   spec.version       = VERSION
-  spec.authors       = ["apstechishin"]
+  spec.authors       = ["Andy Stechishin"]
   spec.email         = ["andy@canasoftware.ca"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Simplify RubyMotion build and run on simulator to target specific device}
+  spec.summary       = %q{Run a RubyMotion app on a specific device}
   spec.homepage      = ""
-  spec.license       = ""
+  spec.license       = "BSD"
 
   files = []
   files << 'README.md'

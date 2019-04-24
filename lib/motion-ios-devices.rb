@@ -5,6 +5,5 @@ unless defined?(Motion::Project::Config)
 end
 
 lib_dir_path = File.dirname(File.expand_path(__FILE__))
-Motion::Project::App.setup do |app|
-  app.files.unshift(Dir.glob(File.join(lib_dir_path, "project/**/*.rb")).sort)
-end
+
+require_relative 'tasks/motion-ios-devices'
